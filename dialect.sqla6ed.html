@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html
+    lang="deu"
+    style="font-size: 18px"
+    >
+
+<!-- Mirrored from localhost:8080/dialect.sql?id=2&lang=deu by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 29 Jul 2026 20:30:06 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8" />
+    <title>Plattdeutsch DB</title>
+    <link rel="icon" href="favicon.b8f100ad18d83618.svg">
+    <link rel="stylesheet" href="sqlpage.83100f6f86ad117c.css">
+            <link rel="stylesheet" href="ui/colorblind-ibm.css">
+
+
+    <script src="sqlpage.7f973952f32cc432.js" defer nonce="1076864129752716347"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="Plattdeutsch DB" />
+
+
+    <meta name="generator" content="SQLPage v0.45.0" />
+</head>
+
+
+<body class="layout-boxed" >
+    <div class="page">
+        <header id="sqlpage_header">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top">
+            <div class="container-fluid gap-2 justify-content-start" style="min-width:0">
+                <a class="navbar-brand" href="home.sql6152.html?lang=deu">
+<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M7 10l-.85 8.507a1.357 1.357 0 0 0 1.35 1.493h.146a2 2 0 0 0 1.857 -1.257l.994 -2.486a2 2 0 0 1 1.857 -1.257h1.292a2 2 0 0 1 1.857 1.257l.994 2.486a2 2 0 0 0 1.857 1.257h.146a1.37 1.37 0 0 0 1.364 -1.494l-.864 -9.506h-8c0 -3 -3 -5 -6 -5l-3 6l2 2l3 -2" /><path d="M22 14v-2a3 3 0 0 0 -3 -3" /></svg>                </a>
+                <span class="mb-0 fs-2 text-truncate flex-grow-1" style="flex-basis:0">
+                    <a class="text-decoration-none text-body" href="home.sql6152.html?lang=deu">Plattdeutsch DB</a>
+                </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbar-menu">
+                        <ul class="navbar-nav ms-auto">                        <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#"                                    data-bs-toggle="dropdown" 
+
+                                                    role="button"
+                                                >Deutsch</a><div class="dropdown-menu dropdown-menu-end" data-bs-popper="static">                                            <a class="dropdown-item" href="home.sqle800.html?lang=nds" ><span class="me-1"><img width=24 height=24 src="https://sassenflagg.org/wp-content/uploads/2025/10/Sassenflagg-Web-92e3d7.svg"></span>Plattdeutsch</a>                                            <a class="dropdown-item" href="home.sql6152.html?lang=deu" ><span class="me-1"><img width=24 height=24 src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg"></span>Deutsch</a>                                            <a class="dropdown-item" href="home.sql1b0e.html?lang=eng" ><span class="me-1"><img width=24 height=24 src="https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_England.svg"></span>English</a>                                            <a class="dropdown-item" href="home.sql48be.html?lang=nld" ><span class="me-1"><img width=24 height=24 src="https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"></span>Nederlands</a></div>
+                                            </li>
+                        </ul>
+                </div>
+            </div>
+        </nav>
+        </header>
+        <div class="page-wrapper">
+            <main class="page-body container-xl flex-grow-1 px-md-5 px-sm-3 mt-5 pt-5" id="sqlpage_main_wrapper"><h1 class="mt-2 mb-1  " ></h1>
+<div class="card my-2 " >
+    <div class="list-group list-group-flush list-group-hoverable">
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://www.kiek-is-an.de/Plattdeutsches/PlattdeutschesWoerterbuch.pdf"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://www.kiek-is-an.de/Plattdeutsches/PlattdeutschesWoerterbuch.pdf" class="avatar avatar-md rounded" width="45" height="45" alt="1. Grafschafter Platt Wörterbuch" />
+                        </div>
+                    <div class="col text-wrap">
+                        1. Grafschafter Platt Wörterbuch<div class="text-muted text-truncate text-wrap">Plattdeutsch · Deutsch | Orthographie · Wörterbuch | Bentheim</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://www.kiek-is-an.de/Plattdeutsches/Woerterbuch-Endfassung.pdf"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://www.kiek-is-an.de/Plattdeutsches/Woerterbuch-Endfassung.pdf" class="avatar avatar-md rounded" width="45" height="45" alt="2. Grafschafter Platt Wörterbuch" />
+                        </div>
+                    <div class="col text-wrap">
+                        2. Grafschafter Platt Wörterbuch<div class="text-muted text-truncate text-wrap">Plattdeutsch · Deutsch | Wörterbuch | Bentheim</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://www.uni-muenster.de/CfN/"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://www.uni-muenster.de/CfN/" class="avatar avatar-md rounded" width="45" height="45" alt="Centrum für Niederdeutsch Uni Münster" />
+                        </div>
+                    <div class="col text-wrap">
+                        Centrum für Niederdeutsch Uni Münster<div class="text-muted text-truncate text-wrap">Deutsch | Institution | Münsterland</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="http://www.eiringer-platt.de/"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=http://www.eiringer-platt.de/" class="avatar avatar-md rounded" width="45" height="45" alt="Eiringer Platt e.V." />
+                        </div>
+                    <div class="col text-wrap">
+                        Eiringer Platt e.V.<div class="text-muted text-truncate text-wrap">Deutsch · Plattdeutsch | Institution · Orthographie | Waldeck</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://emslaendische-landschaft.de/fachstelle-plattdeutsch.html"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://emslaendische-landschaft.de/fachstelle-plattdeutsch.html" class="avatar avatar-md rounded" width="45" height="45" alt="Emsländische Landschaft" />
+                        </div>
+                    <div class="col text-wrap">
+                        Emsländische Landschaft<div class="text-muted text-truncate text-wrap">Deutsch | Institution | Bentheim · Emsland</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://kreenk.nl/"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://kreenk.nl/" class="avatar avatar-md rounded" width="45" height="45" alt="Kreenk vuur de Tweantse Sproak" />
+                        </div>
+                    <div class="col text-wrap">
+                        Kreenk vuur de Tweantse Sproak<div class="text-muted text-truncate text-wrap">Plattdeutsch | Institution · Orthographie · Literatur | Twente | Kreenk</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://www.lippischer-heimatbund.de/fachstellen/mundart-und-brauchtumspflege/"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://www.lippischer-heimatbund.de/fachstellen/mundart-und-brauchtumspflege/" class="avatar avatar-md rounded" width="45" height="45" alt="Lippischer Heimatbund" />
+                        </div>
+                    <div class="col text-wrap">
+                        Lippischer Heimatbund<div class="text-muted text-truncate text-wrap">Deutsch | Institution | Lippe</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://mundartgruppe.jimdofree.com/"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://mundartgruppe.jimdofree.com/" class="avatar avatar-md rounded" width="45" height="45" alt="Mundartgruppe &quot;Mie Meinerküser&quot;" />
+                        </div>
+                    <div class="col text-wrap">
+                        Mundartgruppe &quot;Mie Meinerküser&quot;<div class="text-muted text-truncate text-wrap">Plattdeutsch · Deutsch | Institution | Waldeck</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://buehnenbund.de/"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://buehnenbund.de/" class="avatar avatar-md rounded" width="45" height="45" alt="Niederdeutscher Bühnenbund Niedersachsen und Bremen e.V." />
+                        </div>
+                    <div class="col text-wrap">
+                        Niederdeutscher Bühnenbund Niedersachsen und Bremen e.V.<div class="text-muted text-truncate text-wrap">Deutsch | Institution · Theater | Ostfalen · Emsland · Nordniedersächsisch</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://niedersaechsischer-heimatbund.de/themen/niederdeutsch-saterfriesisch/"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://niedersaechsischer-heimatbund.de/themen/niederdeutsch-saterfriesisch/" class="avatar avatar-md rounded" width="45" height="45" alt="Niedersächsischer Heimatbund" />
+                        </div>
+                    <div class="col text-wrap">
+                        Niedersächsischer Heimatbund<div class="text-muted text-truncate text-wrap">Deutsch | Institution | Ostfalen · Emsland · Nordniedersächsisch</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://www.kiek-is-an.de/"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://www.kiek-is-an.de/" class="avatar avatar-md rounded" width="45" height="45" alt="Platt AG Grafschaft Bentheim kiek is an" />
+                        </div>
+                    <div class="col text-wrap">
+                        Platt AG Grafschaft Bentheim kiek is an<div class="text-muted text-truncate text-wrap">Plattdeutsch · Deutsch | Institution | Bentheim</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://www.platt-ev.de/"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://www.platt-ev.de/" class="avatar avatar-md rounded" width="45" height="45" alt="Platt e.V. Minden-Lübecke" />
+                        </div>
+                    <div class="col text-wrap">
+                        Platt e.V. Minden-Lübecke<div class="text-muted text-truncate text-wrap">Plattdeutsch · Deutsch | Institution | Minden</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://www.platt-cast.de/"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://www.platt-cast.de/" class="avatar avatar-md rounded" width="45" height="45" alt="Plattcast" />
+                        </div>
+                    <div class="col text-wrap">
+                        Plattcast<div class="text-muted text-truncate text-wrap">Plattdeutsch · Deutsch | Podcast · Audio | Emsland</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://www.plattdeutsch.net/"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://www.plattdeutsch.net/" class="avatar avatar-md rounded" width="45" height="45" alt="Plattdeutsch Riesenbeck" />
+                        </div>
+                    <div class="col text-wrap">
+                        Plattdeutsch Riesenbeck<div class="text-muted text-truncate text-wrap">Deutsch | Institution | Münsterland</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://www.plattdeutsch-stiftung.de/platt/"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://www.plattdeutsch-stiftung.de/platt/" class="avatar avatar-md rounded" width="45" height="45" alt="Plattdeutsch Stiftung Neddersassen" />
+                        </div>
+                    <div class="col text-wrap">
+                        Plattdeutsch Stiftung Neddersassen<div class="text-muted text-truncate text-wrap">Plattdeutsch | Institution | Ostfalen · Emsland · Nordniedersächsisch | Sass</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://www.yumpu.com/de/document/read/6534696/auch-der-kostenlose-download-bei-den-waldecker-kauhlhasen/9"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://www.yumpu.com/de/document/read/6534696/auch-der-kostenlose-download-bei-den-waldecker-kauhlhasen/9" class="avatar avatar-md rounded" width="45" height="45" alt="Plattdeutsches Wörterbuch der Gemeinde Twistetal" />
+                        </div>
+                    <div class="col text-wrap">
+                        Plattdeutsches Wörterbuch der Gemeinde Twistetal<div class="text-muted text-truncate text-wrap">Plattdeutsch · Deutsch | Wörterbuch | Waldeck</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="http://www.xn--plattdtsche-yhb.de/"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=http://www.xn--plattdtsche-yhb.de/" class="avatar avatar-md rounded" width="45" height="45" alt="Plattdütsche ut Waold un Hei" />
+                        </div>
+                    <div class="col text-wrap">
+                        Plattdütsche ut Waold un Hei<div class="text-muted text-truncate text-wrap">Deutsch | Institution | Westmünsterland</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://huusvandetaol.nl/waw-doet/schrieverij/tiedschriften/"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://huusvandetaol.nl/waw-doet/schrieverij/tiedschriften/" class="avatar avatar-md rounded" width="45" height="45" alt="ROET" />
+                        </div>
+                    <div class="col text-wrap">
+                        ROET<div class="text-muted text-truncate text-wrap">Plattdeutsch | Literatur | Drente</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://archiv.ub.uni-marburg.de/ubfind/Record/urn:nbn:de:hebis:04-eb2020-0279/View"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://archiv.ub.uni-marburg.de/ubfind/Record/urn:nbn:de:hebis:04-eb2020-0279/View" class="avatar avatar-md rounded" width="45" height="45" alt="Studien zur Dialektgeographie des Fürstentums Waldeck und des nördlichen Teils des Kreises Frankenberg" />
+                        </div>
+                    <div class="col text-wrap">
+                        Studien zur Dialektgeographie des Fürstentums Waldeck und des nördlichen Teils des Kreises Frankenberg<div class="text-muted text-truncate text-wrap">Deutsch | Wissenschaftlich | Waldeck</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://twentswoordenboek.nl/"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://twentswoordenboek.nl/" class="avatar avatar-md rounded" width="45" height="45" alt="Twents Woordenboek" />
+                        </div>
+                    <div class="col text-wrap">
+                        Twents Woordenboek<div class="text-muted text-truncate text-wrap">Plattdeutsch · Nederlands | Wörterbuch | Twente</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="http://twentsetaalbank.nl/"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=http://twentsetaalbank.nl/" class="avatar avatar-md rounded" width="45" height="45" alt="Twentse Taalbank" />
+                        </div>
+                    <div class="col text-wrap">
+                        Twentse Taalbank<div class="text-muted text-truncate text-wrap">Nederlands | Literatur | Twente</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://drive.google.com/drive/mobile/folders/18yoVGdi9m_DpgkOowCQ9tek_3074aeDg"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://drive.google.com/drive/mobile/folders/18yoVGdi9m_DpgkOowCQ9tek_3074aeDg" class="avatar avatar-md rounded" width="45" height="45" alt="Versassischte vertelsel in Benthemer Neddersassisch" />
+                        </div>
+                    <div class="col text-wrap">
+                        Versassischte vertelsel in Benthemer Neddersassisch<div class="text-muted text-truncate text-wrap">Plattdeutsch | Bentheim</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://web.archive.org/web/20240114204401/https://plattmakers.de/storage/books/Waldeckisches_Wörterbuch_nebst_Dialektproben.pdf"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://web.archive.org/web/20240114204401/https://plattmakers.de/storage/books/Waldeckisches_W%C3%B6rterbuch_nebst_Dialektproben.pdf" class="avatar avatar-md rounded" width="45" height="45" alt="Waldeckisches Wörterbuch nebst Dialektproben" />
+                        </div>
+                    <div class="col text-wrap">
+                        Waldeckisches Wörterbuch nebst Dialektproben<div class="text-muted text-truncate text-wrap">Plattdeutsch · Deutsch | Wörterbuch · Wissenschaftlich | Waldeck</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://open.spotify.com/show/45SrkFfF8hCXI9U9KiRdUU"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://open.spotify.com/show/45SrkFfF8hCXI9U9KiRdUU" class="avatar avatar-md rounded" width="45" height="45" alt="Watata podcast" />
+                        </div>
+                    <div class="col text-wrap">
+                        Watata podcast<div class="text-muted text-truncate text-wrap">Plattdeutsch | Podcast · Audio | Twente</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://www.youtube.com/@Wearldsproake"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://www.youtube.com/@Wearldsproake" class="avatar avatar-md rounded" width="45" height="45" alt="Wearldspråke" />
+                        </div>
+                    <div class="col text-wrap">
+                        Wearldspråke<div class="text-muted text-truncate text-wrap">Plattdeutsch · English | Podcast · Audio | Twente | Nysassiske Skryvwyse</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://woerterbuchnetz.de/?sigle=WWB&amp;lemid=A00011"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://woerterbuchnetz.de/?sigle=WWB&amp;lemid=A00011" class="avatar avatar-md rounded" width="45" height="45" alt="Westfälisches Wörterbuch" />
+                        </div>
+                    <div class="col text-wrap">
+                        Westfälisches Wörterbuch<div class="text-muted text-truncate text-wrap">Plattdeutsch · Deutsch | Wörterbuch | Westfalen</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://neon.niederlandistik.fu-berlin.de/de/plattdeutsch/wb?such=hebamme&amp;ganzwort=ja"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://neon.niederlandistik.fu-berlin.de/de/plattdeutsch/wb?such=hebamme&amp;ganzwort=ja" class="avatar avatar-md rounded" width="45" height="45" alt="Wörterbuch der westmünsterländischen Mundart" />
+                        </div>
+                    <div class="col text-wrap">
+                        Wörterbuch der westmünsterländischen Mundart<div class="text-muted text-truncate text-wrap">Plattdeutsch · Deutsch | Wörterbuch | Westmünsterland</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://www.info-waldeck.de/assets/woerterbuch-nordwaldecker-platt_xls.pdf"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://www.info-waldeck.de/assets/woerterbuch-nordwaldecker-platt_xls.pdf" class="avatar avatar-md rounded" width="45" height="45" alt="Wörterbuch für Nordwaldecker Platt" />
+                        </div>
+                    <div class="col text-wrap">
+                        Wörterbuch für Nordwaldecker Platt<div class="text-muted text-truncate text-wrap">Plattdeutsch · Deutsch | Wörterbuch | Waldeck</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+        <div 
+            class="list-group-item list-group-item-action p-0  ">
+            <div class="row align-items-center m-0">
+                <a href="https://woerterbuchnetz.de/"
+                    class="col row align-items-center text-decoration-none text-body m-0 p-3">
+                        <div class="col-auto">
+                            <img src="https://www.google.com/s2/favicons?sz=128&amp;domain=https://woerterbuchnetz.de/" class="avatar avatar-md rounded" width="45" height="45" alt="Wörterbuchnetz" />
+                        </div>
+                    <div class="col text-wrap">
+                        Wörterbuchnetz<div class="text-muted text-truncate text-wrap">Plattdeutsch · Deutsch | Wörterbuch · Historisch | Mecklenburg-Vorpommern · Westfalen</div></div>
+
+                    </a>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+
+                <footer class="w-100 text-center fs-6 my-2 text-secondary" id="sqlpage_footer">
+                        <!-- You can change this footer using the 'footer' parameter of the 'shell' component -->
+                        Built with <a class="text-reset" href="https://sql-page.com/"
+                            title="SQLPage v0.45.0">SQLPage</a>
+                </footer>
+        </div>
+    </div>
+</body>
+
+<!-- Mirrored from localhost:8080/dialect.sql?id=2&lang=deu by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 29 Jul 2026 20:30:06 GMT -->
+</html>
